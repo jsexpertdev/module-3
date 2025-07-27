@@ -11,6 +11,7 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -20,6 +21,7 @@
 }
 
 .hello-world {
+  text-align: center;
   color: white;
   font-size: 3.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
